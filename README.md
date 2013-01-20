@@ -27,6 +27,7 @@ var findCountriesLike = countryCode.searchCountry(myCountrySearch);
 console.log(findCountriesLike);
 
 var findCodesLike = countryCode.searchCode(myCodeSearch);
+
 // Prints [ { country: 'Afghanistan', code: 93 }, { country: 'Ecuador', code: 593 }, 
 //          { country: 'Turkmenistan', code: 993 } ]
 console.log(findCodesLike);

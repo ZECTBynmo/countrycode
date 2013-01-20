@@ -22,10 +22,14 @@ var verifyCountryName = countryCode.getCountry(myCountriesCode);
 console.log(verifyCountryName);	// Prints "Albania"
 
 var findCountriesLike = countryCode.searchCountry(myCountrySearch);
-console.log(findCountriesLike); // Prints [ { country: 'Albania', code: 213 }, { country: 'Svalbard', code: 0 } ]
+
+// Prints [ { country: 'Albania', code: 213 }, { country: 'Svalbard', code: 0 } ]
+console.log(findCountriesLike);
 
 var findCodesLike = countryCode.searchCode(myCodeSearch);
-console.log(findCodesLike); // Prints [ { country: 'Afghanistan', code: 93 }, { country: 'Ecuador', code: 593 }, { country: 'Turkmenistan', code: 993 } ]
+// Prints [ { country: 'Afghanistan', code: 93 }, { country: 'Ecuador', code: 593 }, 
+//          { country: 'Turkmenistan', code: 993 } ]
+console.log(findCodesLike);
 ```
 
 Note: Country names are NOT case sensitive

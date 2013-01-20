@@ -14,6 +14,26 @@ exports.getCountry = function( countryCode ) {
 	}
 }
 
+exports.searchCountry = function( partialCountry ) {
+	var matches = [];
+	for( var iCountry = 0; iCountry < countryCodes.length; iCountry++ ) {
+		if( countryCodes[iCountry].country.toLowerCase().indexOf( partialCountry.toLowerCase() ) > -1 ) {
+			matches.push( countryCodes[iCountry] )
+		}
+	}
+	return matches;
+}
+
+exports.searchCode = function( partialCode ) {
+	var matches = [];
+	for( var iCountry = 0; iCountry < countryCodes.length; iCountry++ ) {
+		if( countryCodes[iCountry].code.toString().indexOf( partialCode.toString() ) > -1 ) {
+			matches.push( countryCodes[iCountry] )
+		}
+	}
+	return matches;
+}
+
 var countryCodes = [
 	{
 	country: "Afghanistan",

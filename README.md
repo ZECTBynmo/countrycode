@@ -11,7 +11,7 @@ var countryCode = require("countrycode");
 
 var myCountry = "Albania";
 
-var myCountrySearch = "";
+var myCountrySearch = "alb";
 
 var myCodeSearch = 93;
 

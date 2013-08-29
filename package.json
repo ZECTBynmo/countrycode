@@ -1,5 +1,5 @@
 { "name": "countrycode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mike Vegeto <michael.vegeto@gmail.com>",
   "description": "Find the country corresponding to country codes",
   "main": "./countrycode",
